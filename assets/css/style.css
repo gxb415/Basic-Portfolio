@@ -56,16 +56,22 @@ li:last-child {
 
 aside {
 	background-color: #ffffff;
-	width: 270px;
-	height:180px;
+	width: 320px;
+	height: 220px;
 	float: right;
 	border: 1px solid #cccccc;
-	margin-left: 140px;
+	position: relative;
+	left: 150px;
 }
 
-.icons {
-	padding: 15px;
+div.icons {
+	padding-left: 10px;
+	padding-top: 10px;
+}
 
+div.icons a {
+	padding: 8px;
+	margin: auto;
 }
 
 h2, h3 {
@@ -73,6 +79,7 @@ h2, h3 {
 	border-bottom: #cccccc 2px solid;
 	margin: 20px;
 	padding: 10px;
+	text-align: right;
 }
 
 section {
@@ -88,15 +95,12 @@ article {
 	height: 1000px;
 	border: 1px solid #cccccc;
 	background-color: #ffffff;
+	padding-left: 10px;
 }
 
-
-.profile {
-	margin: 15px;
-}
 
 p {
-	margin-left: 10px;
+	margin-left: 20px;
 	margin-right: 10px;
 }
 
@@ -214,4 +218,10 @@ input.button {
     padding: 10px 20px 10px 20px;
     color: #ffffff;
     font-size: 15px;
+ }
+
+ img.profilepic {
+ 	padding: 5px 20px 5px 20px; 
+ 	float: left;
+
  }
